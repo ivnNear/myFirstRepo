@@ -1,23 +1,45 @@
-:root{
+:root {
     --bg-color: #1B3446;
     --card-color: #001E2D;
     --font-color: #fff;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 1.25rem;
     background-color: var(--bg-color);
     display: grid;
     place-items: center;
     height: calc(100vh - 0.1px);
-    color: var(--font-color);
-}
-/* ========================================================= */
-.card{
-    width: 600px;
-    
-    background-color: var(--card-color);
+
 }
 
+li {
+    list-style-type: none;
+}
+
+/* ========================================================= */
+
+.container {
+    padding: 1.25rem;
+    border: 2px solid;
+    border-radius: 0.625rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(60, 236, 215, 0.25);
+}
+
+.container article img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
+
+}
+
+.container article ul li a{
+    width: 50px;
+}
