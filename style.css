@@ -14,15 +14,14 @@ body {
     font-size: 16px;
     padding: 1.25rem;
     background-color: var(--bg-color);
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: calc(100vh - 0.1px);
+    color: var(--font-color);
 
 }
 
-li {
-    list-style-type: none;
-}
 
 /* ========================================================= */
 
@@ -32,14 +31,22 @@ li {
     border-radius: 0.625rem;
     box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(60, 236, 215, 0.25);
 }
-
-.container article img {
-    width: 8rem;
-    height: 8rem;
-    border-radius: 4rem;
-
+.container article div:first-child{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("1.png");
+    background-size: cover;
+    border: 2px solid var(--font-color);
 }
 
-.container article ul li a{
-    width: 50px;
+.container article:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
 }
+.container article div:nth-child(2){
+    margin-left: 1rem;
+}
+
