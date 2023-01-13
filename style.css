@@ -27,9 +27,10 @@ body {
 
 .container {
     padding: 1.25rem;
-    border: 2px solid;
     border-radius: 0.625rem;
     box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(60, 236, 215, 0.25);
+    max-width: 500px;
+    background-color: var(--card-color);
 }
 .container article div:first-child{
     width: 100px;
@@ -44,6 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
+    margin-bottom: 1.5rem;
     
 }
 .container article div:nth-child(2){
