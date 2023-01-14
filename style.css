@@ -49,6 +49,12 @@ body {
     
 }
 .container article div:nth-child(2){
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
+.container article:nth-child(2){
+    margin-bottom: 1.5rem;
+}
+.container:last-child{
+    font-size: 3rem;
 
+}
