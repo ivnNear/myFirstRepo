@@ -40,6 +40,9 @@ body {
     background-size: cover;
     border: 2px solid var(--font-color);
 }
+.container article:first-child div:last-child h2{
+    margin-bottom: -0.5rem;
+}
 
 .container article:first-child{
     display: flex;
@@ -50,6 +53,7 @@ body {
 }
 .container article div:nth-child(2){
     margin-left: 1.5rem;
+    
 }
 .container article:nth-child(2){
     margin-bottom: 1.5rem;
