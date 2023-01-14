@@ -49,6 +49,7 @@ body {
     align-items: center;
     justify-content: start;
     margin-bottom: 1.5rem;
+    flex-wrap: wrap;
     
 }
 .container article div:nth-child(2){
