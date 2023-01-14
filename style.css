@@ -58,7 +58,4 @@ body {
 .container article:nth-child(2){
     margin-bottom: 1.5rem;
 }
-.container:last-child{
-    font-size: 3rem;
 
-}
